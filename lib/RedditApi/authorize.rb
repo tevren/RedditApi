@@ -6,7 +6,7 @@ module RedditApi
       body = { client_id: RedditApi.configuration.client_id, 
         response_type: 'code', 
         state: SecureRandom.hex(16), 
-        redirect_uri: RedditApi.configuration.client_id,
+        redirect_uri: RedditApi.configuration.redirect_uri,
         duration: RedditApi.configuration.duration,
         scope: scopes}
       get(url: 'api/v1/authorize', body: body)

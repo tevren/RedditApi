@@ -1,4 +1,3 @@
-require 'securerandom'
 module RedditApi
   class Authorize < Base
     def authorize(scopes = nil)

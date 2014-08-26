@@ -1,7 +1,7 @@
 require "RedditApi/base"
 require "RedditApi/configuration"
 require "RedditApi/read"
-require "RedditApi/subscribes"
+require "RedditApi/subscribe"
 require "RedditApi/version"
 
 module RedditApi

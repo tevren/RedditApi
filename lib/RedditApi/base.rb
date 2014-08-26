@@ -31,9 +31,9 @@ module RedditApi
       valid = true
       scopes_array.each do | scope|
         valid = false unless allowed_scopes.include?(scope)
-        break if valid = false
+        break if valid == false
       end
-      if valid = true
+      if valid == true
         scopes
       else
         nil

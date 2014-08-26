@@ -1,4 +1,5 @@
 require 'faraday'
+require 'json'
 require 'RedditApi/base'
 require 'RedditApi/configuration'
 require 'RedditApi/read'
